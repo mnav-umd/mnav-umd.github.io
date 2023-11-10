@@ -200,7 +200,6 @@ a{
 	text-decoration: underline;
 	color: rgb(0, 145, 255);
 }
-
 .research_content h6{
 	font-weight: 600;
 	line-height: 25px;
@@ -211,19 +210,18 @@ a{
 	 
 }
 .research_content, .working_pro_content{
-	box-shadow: rgba(186, 187, 189, 0.25) 0px 1px 1px, rgba(205, 205, 205, 0.13) 0px 0px 1px 1px;
 	padding:10px 7px;
 	margin-top: 20px;
 }
 
 ul.list-cstm-pro li {
 	list-style: none;
-	margin: 0px 0px 20px;
+	margin: 0px 0px 10px;
 	position: relative;
 	font-weight: 600;
   }
   
-  ul.list-cstm-pro li::before {
+ul.list-cstm-pro li::before {
 content: "";
 width: 15px;
 height: 15px;
@@ -240,13 +238,60 @@ border: 2px solid #000;
   ol, ul {
     padding-left: 0rem;
 }
-ul.list-cstm-pro p {
+ul.list-cstm-pro h6 {
     font-weight: 500;
     color:  rgb(0, 217, 255);
 }
-ul.list-cstm-pro p, a {
+ul.list-cstm-pro h6, a {
     color: rgb(0, 145, 255);
 }
+
+
+
+
+
+
+
+/*--------------------------------------------------------------- research css */
+/* toggle button */
+.btn {
+	background-color: transparent;
+	border: none;
+	color: rgb(0, 0, 0);
+	box-shadow: none;
+	outline: none !important;
+	padding: 0;
+	font-size: 15px;
+	font-weight: 600;
+    letter-spacing: 1px;
+  }
+
+  .btn:hover {
+	background-color: transparent !important;
+	color: rgb(0, 0, 0) !important;
+	box-shadow: none !important;
+  }
+
+  .btn:focus {
+	box-shadow: none !important;
+  }
+  i.fas.fa-plus,
+  i.fas.fa-minus {
+	font-size: 8px;
+	padding: 5px;
+	background: rgb(8 148 255);
+	color: #fff;
+	border-radius: 25px;
+	margin-right: 10px;
+  }
+
+
+
+
+
+
+
+
 @media(max-width:667px){
 	.profile_content img{
 		width: 60%;

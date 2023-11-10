@@ -1,4 +1,4 @@
-
+// for mobile navbar
  const navToggler = document.querySelector(".nav-toggler");
  navToggler.addEventListener("click", navToggle);
 
@@ -13,3 +13,14 @@
     	nav.removeAttribute("style");
     }
  } 
+
+//  toggle
+$(document).ready(function () {
+  $(".collapse")
+    .on("show.bs.collapse", function () {
+      $(this).prev().find("i").removeClass("fa-plus").addClass("fa-minus");
+    })
+    .on("hide.bs.collapse", function () {
+      $(this).prev().find("i").removeClass("fa-minus").addClass("fa-plus");
+    });
+});
