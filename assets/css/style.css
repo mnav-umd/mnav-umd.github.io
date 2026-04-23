@@ -192,6 +192,25 @@ a{
 	border:1px solid #f3a93d;
 
 }
+.social_icons svg.gs-icon {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	padding: 10px;
+	background: #fff;
+	border-radius: 10px 0px 10px 0px;
+	margin-right: 10px;
+	fill: rgb(0, 145, 255);
+	transition: 0.3s;
+	border: 1px solid #000;
+	box-sizing: content-box;
+	vertical-align: middle;
+}
+.social_icons a:hover svg.gs-icon {
+	background: #2f3240;
+	fill: #fff;
+	border: 1px solid #f3a93d;
+}
 .biography h4{
 	font-weight: 600;
 	letter-spacing: 1px;
