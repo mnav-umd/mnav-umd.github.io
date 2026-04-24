@@ -263,6 +263,7 @@ a {
   font-size: 0.875rem;
   color: #555;
   margin-left: 0.3rem;
+  letter-spacing: normal;
 }
 .paper-meta {
   font-size: 0.9rem;
