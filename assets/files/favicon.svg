@@ -1,4 +1,35 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
   <rect width="32" height="32" rx="3" fill="#2f3240"/>
-  <text x="16" y="22" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">MAN</text>
+  <rect x="5" y="11" width="2" height="2" fill="white"/>
+  <rect x="9" y="11" width="2" height="2" fill="white"/>
+  <rect x="5" y="13" width="2" height="2" fill="white"/>
+  <rect x="7" y="13" width="2" height="2" fill="white"/>
+  <rect x="9" y="13" width="2" height="2" fill="white"/>
+  <rect x="5" y="15" width="2" height="2" fill="white"/>
+  <rect x="9" y="15" width="2" height="2" fill="white"/>
+  <rect x="5" y="17" width="2" height="2" fill="white"/>
+  <rect x="9" y="17" width="2" height="2" fill="white"/>
+  <rect x="5" y="19" width="2" height="2" fill="white"/>
+  <rect x="9" y="19" width="2" height="2" fill="white"/>
+  <rect x="15" y="11" width="2" height="2" fill="white"/>
+  <rect x="13" y="13" width="2" height="2" fill="white"/>
+  <rect x="17" y="13" width="2" height="2" fill="white"/>
+  <rect x="13" y="15" width="2" height="2" fill="white"/>
+  <rect x="15" y="15" width="2" height="2" fill="white"/>
+  <rect x="17" y="15" width="2" height="2" fill="white"/>
+  <rect x="13" y="17" width="2" height="2" fill="white"/>
+  <rect x="17" y="17" width="2" height="2" fill="white"/>
+  <rect x="13" y="19" width="2" height="2" fill="white"/>
+  <rect x="17" y="19" width="2" height="2" fill="white"/>
+  <rect x="21" y="11" width="2" height="2" fill="white"/>
+  <rect x="25" y="11" width="2" height="2" fill="white"/>
+  <rect x="21" y="13" width="2" height="2" fill="white"/>
+  <rect x="23" y="13" width="2" height="2" fill="white"/>
+  <rect x="25" y="13" width="2" height="2" fill="white"/>
+  <rect x="21" y="15" width="2" height="2" fill="white"/>
+  <rect x="25" y="15" width="2" height="2" fill="white"/>
+  <rect x="21" y="17" width="2" height="2" fill="white"/>
+  <rect x="25" y="17" width="2" height="2" fill="white"/>
+  <rect x="21" y="19" width="2" height="2" fill="white"/>
+  <rect x="25" y="19" width="2" height="2" fill="white"/>
 </svg>
