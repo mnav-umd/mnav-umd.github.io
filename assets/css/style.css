@@ -177,39 +177,30 @@ a{
 	width: 80%;
 	border-radius: 10px;
 }
-.social_icons i {
-    padding: 10px;
-    background: #fff;
-    border-radius: 10px 0px 10px 0px;
-	margin-right: 10px;
-	color:rgb(0, 145, 255);
-	transition: 0.3s;
-	border:1px solid #000;
+.social_icons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
 }
-.social_icons i:hover{
-   background: #2f3240;
-	color: #fff;
-	border:1px solid #f3a93d;
-
+.social_icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    background: #ddf0f5;
+    color: rgb(0, 145, 255);
+    font-size: 15px;
+    transition: background 0.3s, color 0.3s, transform 0.3s;
+    text-decoration: none;
 }
-.social_icons svg.gs-icon {
-	display: inline-block;
-	width: 14px;
-	height: 14px;
-	padding: 10px;
-	background: #fff;
-	border-radius: 10px 0px 10px 0px;
-	margin-right: 10px;
-	fill: rgb(0, 145, 255);
-	transition: 0.3s;
-	border: 1px solid #000;
-	box-sizing: content-box;
-	vertical-align: middle;
-}
-.social_icons a:hover svg.gs-icon {
-	background: #2f3240;
-	fill: #fff;
-	border: 1px solid #f3a93d;
+.social_icons a:hover {
+    background: rgb(0, 145, 255);
+    color: #fff;
+    transform: translateY(-2px);
+    text-decoration: none;
 }
 .biography h4{
 	font-weight: 600;
