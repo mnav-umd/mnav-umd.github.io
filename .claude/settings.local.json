@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "WebFetch(domain:www.choongryul-yang.com)"
+      "WebFetch(domain:www.choongryul-yang.com)",
+      "Bash(git add *)",
+      "Bash(git rebase *)",
+      "Bash(GIT_EDITOR=true git rebase --continue)",
+      "Bash(EDITOR=true git rebase --continue)"
     ]
   }
 }
